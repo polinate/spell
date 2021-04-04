@@ -45,7 +45,7 @@ for i in range(len(answers)):
 
 
 # Build tokenizer using tfds for both questions and answers
-tokenizer =  tfds.features.text.SubwordTextEncoder.build_from_corpus(
+tokenizer =  tfds.deprecated.text.SubwordTextEncoder.build_from_corpus(
     questions + answers, target_vocab_size=2**13)
 
 # Define start and end token to indicate the start and end of a sentence
