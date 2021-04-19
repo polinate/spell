@@ -1,1 +1,1 @@
-web: gunicorn model2:flask_app
+web: gunicorn model2:flask_app --timeout 15
