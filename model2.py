@@ -9,14 +9,14 @@ import json
 flask_app = Flask(__name__) 
 questions=[]
 
-with open('string.txt', encoding='utf-8') as f:
+with open('string1.txt', encoding='utf-8') as f:
   lines_modern = f.read().splitlines()
 
 questions=questions+lines_modern
 
 answers=[]
 
-with open('txt.txt', encoding='utf-8') as f:
+with open('txt1.txt', encoding='utf-8') as f:
   lines_modern = f.read().splitlines()
 
 answers=answers+lines_modern
