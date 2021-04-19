@@ -522,7 +522,7 @@ def accuracy(y_true, y_pred):
 
 model.compile(optimizer=optimizer, loss=loss_function, metrics=[accuracy])
 
-model.load_weights('weights.h5')
+model.load_weights('weights1.h5')
 
 
 def evaluate(sentence):
